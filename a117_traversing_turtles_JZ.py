@@ -1,5 +1,5 @@
 import turtle as trtl
-
+t.speed(0)
 # create an empty list of turtles
 my_turtles = []
 
