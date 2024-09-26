@@ -1,5 +1,4 @@
 import turtle as trtl
-t.speed(0)
 # create an empty list of turtles
 my_turtles = []
 
@@ -9,6 +8,7 @@ turtle_colors = ["red", "blue", "green", "orange", "purple", "gold","red", "blue
 
 for s in turtle_shapes:
     t = trtl.Turtle(shape=s)
+    t.speed(0)
     my_turtles.append(t)
     t.penup()
 
